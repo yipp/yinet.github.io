@@ -1,0 +1,309 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1"/>
+    <title>Bolg</title>
+	<meta charset="utf-8" />
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <style>
+        body { padding-top:70px; }
+    </style>
+    <script src="scripts/jquery-3.2.1.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<body class="container">
+
+    <header>
+        <nav class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <div class="navbar-brand">yinet</div>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#divNav">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div id="divNav" class="collapse navbar-collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <button type="button" class="btn btn-success navbar-btn" data-toggle="modal" data-target="#divModal" title="print">版本</button>
+                            <div class="modal fade" id="divModal">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal"><span>&times;</span></button>
+                                            <h4 class="modal-title">yinet下载</h4>
+                                        </div>
+                                        <div class="modal-body">yinet当前版本：1.0.0</div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">关闭</button>
+                                            <button type="button" class="btn btn-primary">下载</button> 
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-info navbar-btn" data-toggle="tooltip" data-placement="bottom" title="下载">
+                            <a href="https://github.com/yipp/yinet.git">yinet下载</a>
+                            </button>
+                            <script>
+                                $(function () {
+                                    $('[data-toggle="tooltip"]').tooltip();
+                                });
+                            </script>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="row">
+        <div class="col-lg-4">
+            <div class="panel panel-default">
+                <div class="panel-heading"></div>
+                <div class="panel-body">
+                    <img src="img/java.jpg" class="img-responsive img-rounded img-thumbnail" alt="..."/>
+                    <p class="text-center text-primary">yinet</p>
+                </div>
+                <div class="panel panel-info">
+                    <div class="panel-heading">yinet使用手册</div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <span class="text-muted">1:</span>
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="progress">
+                                    <p class="text-left small"><a href="https://www.baidu.com/">下载yinet服务端</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <span class="text-muted">2:</span>
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="progress">
+                                    <p class="text-left small"><a href="https://www.baidu.com/">导入yinet服务端</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <span class="text-muted">3:</span>
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="progress">
+                                    <p class="text-left small"><a href="https://www.baidu.com/">运行yinet服务端</a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <span class="text-muted">4:</span>
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="progress">
+                                    <p class="text-left small"><a href="https://www.baidu.com/">扩展yinet服务端</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-primary">
+                    <div class="panel-heading">yinet视频教程</div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <span class="text-muted">1：</span>
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success progress-bar-warning active" style="width:100%">
+                                        <p class="text-left small"><a href="https://www.baidu.com/">下载yinet服务端</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <span class="text-muted">2：</span>
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-warning active" style="width:100%">
+                                        <p class="text-left small"><a href="https://www.baidu.com/">导入yinet服务端</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <span class="text-muted">3：</span>
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-success progress-bar-warning active" style="width:100%">
+                                        <p class="text-left small"><a href="https://www.baidu.com/">运行yinet服务端</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <span class="text-muted">4：</span>
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="progress">
+                                    <div class="progress-bar progress-bar-striped progress-bar-warning active" style="width:100%">
+                                        <p class="text-left small"><a href="https://www.baidu.com/">扩展yinet服务端</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+           
+        </div>
+        <div class="col-lg-8">
+            
+            <div class="panel-group" id="accordion">
+                
+                <div class="panel panel-info">
+                    <div class="panel-heading"></div>
+                    <div class="panel-body">
+                        <div class="jumbotron">
+                            <p class="text-left small">yinet简介</p><br />
+                            为解决开发人员自己搭建网络通讯底层带来的不便，yinet基于java的开源框架netty进行二次<br />
+                            封装，并融入了当前java主流框架spring及mybatis框架用于管理代码和链接数据库的持久化层<br />
+                            使得开发人员在享有高可靠、高性能网络传输的同时不必去关心底层的实现，只需要在yinet<br />
+                            框架的基础之上拓展需要的业务层实现，利用简单的mysql语句对数据库进行操作而不直接使用<br />
+                            jdbc，从而避免了jdbc带来的许许多多的问题和麻烦。yinet还封装了目前流行使用的以数据长<br />
+                            度来分割数据包的功能解决了网络开发都会遇到的粘包、分包现象。基于spring将业务分离替<br />
+                            换传统由if、switch分离的方法从而减少了不必要的代码量。为兼当前主流的游戏开发引擎unity3d<br />
+                            ，yinet特意为unity3d开发人员提供了可直接运行并与yinet进行正常通讯的yunet框架。yunet<br />
+                            同样解决了异步加载，粘包、分包现象。并为开发者提供了类似java的spring ioc容器的框架<br />
+                            yiioc用于方便管理代码和替换传统的业务分离方式。且不论是yinet，yunet，yiioc都是开源<br />
+                            框架，开发着可以直接上官网或者到github上直接进行源码下载以供使用和学习。可谓是开发<br />
+                            的享受及乐趣。
+                        </div>
+                        <div class="jumbotron">
+                            <p class="text-left small">yinet发展史</p><br />
+                            2017年4月，yipp为方便开发在github上率先发布了yinet_1.0.0，yunet_1.0.0，yiioc_1.0.0<br />
+                            等工具版本。
+                        </div>
+                        <ul class="list-group">
+                            <li class="list-group-item list-group-item-success">
+                                <div class="row">
+                                    <div class="col-lg-4">2017/4</div>
+                                    <div class="col-lg-4">版本：1.0.0</div>
+                                    <div class="col-lg-4">简介：当前最新版本:1.0.0</div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+               
+                
+
+            </div>
+        </div>
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-heading"></div>
+                <div class="panel-body">
+                    <div class="panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a href="#折叠菜单2" data-toggle="collapse" data-parent="#accordion">yinet鉴赏</a>
+                            </div>
+                        </div>
+                        <div id="折叠菜单2" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <div id="divCarousel" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#divCarousel" data-slide-to="0" class="active"></li>
+                                        <li data-target="#divCarousel" data-slide-to="1" class="active"></li>
+                                        <li data-target="#divCarousel" data-slide-to="2" class="active"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="item active">
+                                            <img src="img/a.jpg" alt="..." class="img-responsive img-rounded" />
+                                            <div class="carousel-caption">...</div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/b.jpg" alt="..." class="img-responsive img-rounded" />
+                                            <div class="carousel-caption">...</div>
+                                        </div>
+                                        <div class="item">
+                                            <img src="img/c.jpg" alt="..." class="img-responsive img-rounded" />
+                                            <div class="carousel-caption">...</div>
+                                        </div>
+                                    </div>
+                                    <a class="right carousel-control" href="#divCarousel" data-slide="prev">
+                                        <span class="glyphicon-chevron-left"></span>
+                                    </a>
+                                    <a class="left carousel-control" href="#divCarousel" data-slide="next">
+                                        <span class="glyphicon-chevron-right"></span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-default">
+                        <div class="panel-heading">
+                            <div class="panel-title">
+                                <a href="#折叠菜单3" data-toggle="collapse" data-parent="#accordion">yipp工具下载</a>
+                            </div>
+                        </div>
+                        <div id="折叠菜单3" class="panel-collapse collapse">
+                            <div class="panel-body">
+                                <ul class="list-group">
+                                    <li class="list-group-item list-group-item-success">
+                                        <div class="row">
+                                            <div class="col-lg-4">yinet</div>
+                                            <div class="col-lg-4">jar包下载</div>
+                                            <div class="col-lg-4">
+                                                <p class="text-left small"><a href="https://github.com/yipp/yinet.git">源码下载</a></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item list-group-item-success">
+                                        <div class="row">
+                                            <div class="col-lg-4">yunet</div>
+                                            <div class="col-lg-4">dll文件下载</div>
+                                            <div class="col-lg-4">
+                                                <p class="text-left small"><a href="https://github.com/yipp/yunet.git">源码下载</a></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item list-group-item-success">
+                                        <div class="row">
+                                            <div class="col-lg-4">yiioc</div>
+                                            <div class="col-lg-4">dll文件下载</div>
+                                            <div class="col-lg-4">
+                                                <p class="text-left small"><a href="https://github.com/yipp/yiioc.git">源码下载</a></p>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <p class="text-center text-primary">yunet</p>
+                </div>
+            </div>
+           </div>
+       </div>
+    <footer>
+        <nav class="navbar-default navbar-fixed-bottom text-center">
+            所有图片信息 &copy; 版权
+        </nav>
+    </footer>
+
+</body>
+</html>
